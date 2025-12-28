@@ -1,0 +1,16 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Architecture & Safety
+    - always_use_package_imports
+    - avoid_print
+    - prefer_const_constructors
+    - prefer_const_literals_to_create_immutables
+    - prefer_final_locals
+    - unawaited_futures
+    - use_build_context_synchronously
+    
+    # Style
+    - directives_ordering
+    - lines_longer_than_80_chars: false # Relax for Flutter
